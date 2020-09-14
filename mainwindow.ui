@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1020</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>970</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(58, 58, 58);</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1920</width>
+        <height>970</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(58, 58, 58);</string>
+      </property>
+      <widget class="MyLabel" name="label_Six1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>450</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>马丹1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="MyLabel" name="label_Six2">
+       <property name="geometry">
+        <rect>
+         <x>647</x>
+         <y>10</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle2">
+       <property name="geometry">
+        <rect>
+         <x>647</x>
+         <y>450</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>三沙1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="MyLabel" name="label_Six3">
+       <property name="geometry">
+        <rect>
+         <x>1284</x>
+         <y>10</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle3">
+       <property name="geometry">
+        <rect>
+         <x>1284</x>
+         <y>450</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>九小1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="MyLabel" name="label_Six4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>490</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle6">
+       <property name="geometry">
+        <rect>
+         <x>1284</x>
+         <y>930</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>九小2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="MyLabel" name="label_Six5">
+       <property name="geometry">
+        <rect>
+         <x>647</x>
+         <y>490</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>930</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>马丹2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="MyLabel" name="label_Six6">
+       <property name="geometry">
+        <rect>
+         <x>1284</x>
+         <y>490</y>
+         <width>627</width>
+         <height>440</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(94, 94, 94);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_SixTittle5">
+       <property name="geometry">
+        <rect>
+         <x>647</x>
+         <y>930</y>
+         <width>627</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+       </property>
+       <property name="text">
+        <string>三沙2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <zorder>label_SixTittle3</zorder>
+      <zorder>label_SixTittle6</zorder>
+      <zorder>label_SixTittle5</zorder>
+      <zorder>label_SixTittle4</zorder>
+      <zorder>label_SixTittle1</zorder>
+      <zorder>label_SixTittle2</zorder>
+      <zorder>label_Six3</zorder>
+      <zorder>label_Six6</zorder>
+      <zorder>label_Six5</zorder>
+      <zorder>label_Six2</zorder>
+      <zorder>label_Six1</zorder>
+      <zorder>label_Six4</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(58, 58, 58);</string>
+        </property>
+        <widget class="MyLabel" name="label_Four1">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>50</y>
+           <width>835</width>
+           <height>410</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_FourTittle1">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>460</y>
+           <width>835</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="MyLabel" name="label_Four2">
+         <property name="geometry">
+          <rect>
+           <x>985</x>
+           <y>50</y>
+           <width>835</width>
+           <height>410</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_FourTittle2">
+         <property name="geometry">
+          <rect>
+           <x>985</x>
+           <y>460</y>
+           <width>835</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_FourTittle3">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>920</y>
+           <width>835</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="MyLabel" name="label_Four3">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>510</y>
+           <width>835</width>
+           <height>410</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="MyLabel" name="label_Four4">
+         <property name="geometry">
+          <rect>
+           <x>985</x>
+           <y>510</y>
+           <width>835</width>
+           <height>410</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_FourTittle4">
+         <property name="geometry">
+          <rect>
+           <x>985</x>
+           <y>920</y>
+           <width>835</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_FourTittle4</zorder>
+        <zorder>label_FourTittle3</zorder>
+        <zorder>label_FourTittle2</zorder>
+        <zorder>label_FourTittle1</zorder>
+        <zorder>label_Four1</zorder>
+        <zorder>label_Four2</zorder>
+        <zorder>label_Four3</zorder>
+        <zorder>label_Four4</zorder>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget_6" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(58, 58, 58);</string>
+        </property>
+        <widget class="MyLabel" name="label_Two1">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>190</y>
+           <width>850</width>
+           <height>500</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_TwoTittle1">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>690</y>
+           <width>851</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>全息直播</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="MyLabel" name="label_Two2">
+         <property name="geometry">
+          <rect>
+           <x>990</x>
+           <y>190</y>
+           <width>850</width>
+           <height>500</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(94, 94, 94);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_TwoTittle2">
+         <property name="geometry">
+          <rect>
+           <x>990</x>
+           <y>690</y>
+           <width>851</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{background-color: rgb(104, 104, 104);
+color: rgb(255, 255, 255);
+font: 14pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_TwoTittle2</zorder>
+        <zorder>label_TwoTittle1</zorder>
+        <zorder>label_Two1</zorder>
+        <zorder>label_Two2</zorder>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="BlowUpLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1920</width>
+        <height>940</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(58, 58, 58);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Tittle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>940</y>
+        <width>1920</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(58, 58, 58);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>970</y>
+      <width>1921</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_btn">
+     <property name="geometry">
+      <rect>
+       <x>1550</x>
+       <y>0</y>
+       <width>351</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="btn_twoPalaces">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/Image/TwoPalacesUp.png);}
+QPushButton::pressed
+{
+	border-image: url(:/Image/TwoPalacesDown.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_fourPalaces">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>0</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/Image/FourPalacesUp.png);}
+QPushButton::pressed{
+border-image: url(:/Image/FourPalacesDown.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_sixPalaces">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>0</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/Image/SixPalacesUp.png);}
+QPushButton::pressed{
+	border-image: url(:/Image/SixPalacesDown.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">mylabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BlowUpLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">blowuplabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
